@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECOMENDAME UN DISCO :: Curaduría musical a medida desde 2020</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+TC&display=swap" rel="stylesheet"> 
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div id="tituloBajada">
+            <h1>RECOMENDAME UN DISCO</h1>
+            <h4>Curaduría musical a medida desde 2020.</h4>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../jazz/index.html">JAZZ</a></li>
+                <li>FOLKLORE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="presentacion">
+    </div>
+    <main>
+        <div id="formulario"> 
+            <p id="introduccion">Elegí tu menú peñero de comida y bebida para recibir la recomendación de un disco de folklore para escuchar hoy.</p>
+            <form id="form">
+                <p>COMIDA:</p>
+                    <select name="comida" id ="comida">
+                        <option value="empanadas">Empanadas</option> 
+                        <option value="locro">Locro</option>
+                        <option value="tamal">Tamal</option>
+                        <option value="choripan">Choripan</option> 
+                        <option value="hamburguesa">Hamburguesa</option>
+                    </select>
+                <p>BEBIDA:</p>
+                    <select name="bebida" id="bebida">
+                        <option value="vinotinto">Vino tinto</option> 
+                        <option value="fernet">Fernet</option>
+                        <option value="cerveza">Cerveza</option>
+                        <option value="gaseosa">Gaseosa</option>
+                        <option value="agua">Agua</option>
+                    </select>
+                <div id="botonRecomendar">
+                    <input type=button value="¡Recomendame un disco!" onclick="recomendarDisco()">
+                </div>
+            </form>
+        </div>
+        <div id="resultadoDisco">
+            <div id="discoYoutube"></div>
+            <div id="presentacionDisco"></div>
+            <div id="infoDisco"></div>
+        </div>
+    </main>
+    <div id="creditos">
+        <h3>¿QUIÉNES SOMOS?</h3>
+        <p><b>RECOMENDAME UN DISCO</b> propone una curaduría de música popular "a medida" en tiempos de selecciones realizadas por algoritmos y pautas publicitarias. Si te gustó el disco recomendado, compartilo con tus amigxs. Si no te gustó, ¡probá de nuevo!</p>
+    </div>
+    <footer>
+        <p>V 0.4.1 // 20.07.2020 // Feliz día del amigx</p>
+    </footer>
+</body>
+</html>
